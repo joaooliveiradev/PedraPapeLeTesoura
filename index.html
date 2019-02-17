@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pedra, Papel e Tesoura</title>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<h1 class="title">Pedra Papel e Tesoura!</h1>
+	<h3 class="title2">Clique na imagem para escolher</h3>
+		<div class="rock">
+			
+			<img src="img/pedra.png" onclick="escolhaPedra()" />
+			
+		</div>
+		<div class="paper">
+			<img src="img/papel.png" onclick="escolhaPapel()" /></div>
+		</div>
+		<div class="scissor">
+			<img src="img/tesoura.png" onclick="escolhaTesoura()" />
+		</div>
+		<h1 class="title3">Pontuação</h1>
+		<h3 class="title4">Você:</h3>
+		<span id="pontuacaoVoce">0</span>
+		<h4 class="title5">Computador:</h4>
+		<span id="pontuacaoComputador">0</span>
+		<h4 class="title6">Empates:</h4>
+		<span id="pontuacaoEmpate">0</span>
+		<span class="limparPontuacao">Limpar Pontuação: </span>
+		<input type="button" / id="limpar" value="Limpar" onclick="limpar()" >
+
+</body>
+</html>

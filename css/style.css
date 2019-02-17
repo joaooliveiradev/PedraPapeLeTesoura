@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+}
+
+.title{
+	margin-left: 15px;
+}
+.title2{
+	font-size: 30px;
+	text-align: center;
+}
+.rock{
+	width: 30%;
+	margin-left: 2%;
+	height: 250px;
+	float: left;
+}
+.rock img{
+	width: 100%;
+}
+.rock:hover{
+	background-color: rgba(0, 0,0,0.9);
+	opacity: 0.85;
+}
+
+
+.paper{
+	width: 30%;
+	margin-left: 3%;
+	height: 250px;
+	
+	float: left;
+}
+.paper img{
+	width: 100%;
+}
+.paper:hover{
+	background-color: rgba(0, 0,0,0.9);
+	opacity: 0.85;
+}
+
+.scissor{
+	width: 30%;
+	margin-left: 3%;
+	height: 250px;
+	background: green;
+	float: left;
+}
+.scissor img{
+	width: 100%;
+}
+.scissor:hover{
+	background-color: rgba(0, 0,0,0.9);
+	opacity: 0.85;
+}
+.title3{
+	padding-top: 32%;
+	padding-left: 3%;
+	font-size: 40px;
+	
+}
+.title4{
+margin-left: 45px;
+font-size: 20px;
+display: inline;
+}
+.title5{
+	margin-left: 45px;
+	font-size: 20px;
+	display: inline-block;
+
+}
+.title6{
+	margin-left: 45px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.limparPontuacao{
+	margin-left: 40px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#limpar{
+	width: 60px;
+	height: 20px;
+	margin-left: 10px;
+}
