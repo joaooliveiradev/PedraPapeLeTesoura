@@ -78,6 +78,9 @@ function escolhaTesoura(){
   //Limpar os Campos;
 
   function limpar(){
+        ganhadorVoce = 0;
+        ganhadorComputador = 0;
+        empate = 0;
     document.getElementById("pontuacaoVoce").innerHTML = 0 ;
     document.getElementById("pontuacaoComputador").innerHTML = 0;
     document.getElementById("pontuacaoEmpate").innerHTML = 0;
