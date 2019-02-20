@@ -1,4 +1,4 @@
-alert('Dom Carregado');
+
 
 //Pontuação
 var ganhadorVoce = 0;
